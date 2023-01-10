@@ -17,3 +17,6 @@ Super scuffed Pomodoro timer which was created utilising JFrame and Java's swing
 ### v1.03
 - Added in "Pomodoro [25 Minutes]", "Short Break [5 Minutes]", and "Long Break [15 Minutes]" buttons.
 - Fixed "Single Digits" bug
+
+### v1.04
+- Code cleanup
