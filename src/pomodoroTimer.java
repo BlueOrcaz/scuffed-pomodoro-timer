@@ -1,3 +1,4 @@
+import java.awt.*;
 import javax.sound.sampled.Clip;
 import javax.swing.*;
 import javax.swing.Timer;
@@ -6,18 +7,9 @@ import java.io.File;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 
+
 public class pomodoroTimer extends JFrame{
 
-
-    private JPanel Main;
-    private JLabel Title;
-    private JButton startButton;
-
-    private JButton stopButton;
-    private JLabel pTimer;
-    private JButton pomodoroButton;
-    private JButton shortBreakButton;
-    private JButton longBreakButton;
 
     public static void playMusic(String location){
         try
@@ -40,6 +32,7 @@ public class pomodoroTimer extends JFrame{
     }
 
     public pomodoroTimer() {
+
         final Timer[] t = new Timer[1];
         final int[] k = {1499};
 
@@ -103,4 +96,17 @@ public class pomodoroTimer extends JFrame{
         pomodoroTimer frame = new pomodoroTimer();
         frameSettings(frame);
     }
+
+
+    // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables  @formatter:off
+    // Generated using JFormDesigner Evaluation license - unknown
+    private JPanel Main;
+    private JLabel Title;
+    private JButton pomodoroButton;
+    private JButton shortBreakButton;
+    private JButton longBreakButton;
+    private JLabel pTimer;
+    private JButton startButton;
+    private JButton stopButton;
+    // JFormDesigner - End of variables declaration  //GEN-END:variables  @formatter:on
 }
